@@ -23,7 +23,7 @@ end
 def printer(speakers)
   new_array = assign_rooms(speakers) 
   new_array.each do |value| 
-    puts value 
+    return value 
   end 
   
 end
